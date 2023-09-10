@@ -2,7 +2,7 @@ window.onload = function () {
     for (let i = 0; i < 4; i++) {
         print("万级洁净手术室空气监测", "空气", "2022-03-01【中心-1/5】", "院感管理科【cfu/30min•φ90皿】", "*E2022030100201*");
     }
-
+//
     function print(ItemDesc, NormObject, ItemDate, LocDesc, BarCode) {
         var LODOP = getLodop();
         LODOP.PRINT_INIT("");  //打印任务的名称
